@@ -1,0 +1,108 @@
+h1{
+    color: rgb(0, 55, 150);
+    text-decoration: underline rgb(1, 31, 82) ;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.calc{
+   
+    width: 250px;
+    height: 360px;
+    border: 6px solid  rgb(3, 23, 61) ;
+    background-color: rgb(3, 23, 61);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.result{
+    width: 97%;
+    height: 100px;
+    background-color: rgb(3, 23, 61);
+    border: 1px solid rgb(16, 44, 97);
+    color: white;
+    font-size: 30px;
+}
+
+.backclear{
+    width: 100%;
+    margin-left: 4.5px;
+
+}
+#pow{
+    float: right;
+    margin-right: 9px;
+}
+.clearbtn{
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 55px;
+    height: 40px;
+    background-color: rgb(255, 50, 67);
+    border:  1px solid rgb(255, 50, 67);
+    border-radius: 3px;
+    color: white;
+}
+
+.btn{
+    margin-left: 4.5px;
+    border:  1px solid rgb(5, 36, 94); 
+    color: white;
+    font-size: 18px;
+    width: 55px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+   background-color:  rgb(5, 36, 94);
+}
+.opbtn{
+    width: 55px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color:  rgb(16, 82, 204);
+    border:  1px solid rgb(5, 36, 94); 
+}
+.num{
+    margin-top: 8px;
+    height:250px ;
+    background-color: rgb(3, 23, 61);
+    
+   
+}
+.botbtn{
+    margin-left: 4.5px;
+    border:  1px solid rgb(5, 36, 94); 
+    color: white;
+    font-size: 20px;
+    width: 55px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+   background-color:  rgb(5, 36, 94);
+}
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 45px;
+    }
+    .calc{
+   
+        width: 245px;
+        height: 360px;
+        border: 4px solid  rgb(3, 23, 61) ;
+       
+        border-radius: 5px;
+       
+    }
+    .clearbtn, .btn, .botbtn, .opbtn {
+        width: 54px;
+        height: 40px;
+    }
+    #pow{
+        float: right;
+        margin-right: 8px;
+    }
+}
